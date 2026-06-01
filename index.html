@@ -142,7 +142,7 @@
           </div>
 
           <div class="bg-slate-100 p-4 rounded-xl flex flex-col items-center justify-center border-2 border-dashed border-slate-300">
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=VTrackDonation" alt="[Image of QR Code]" class="w-28 h-28 bg-white p-1 mb-2">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=VTrackDonation" alt="QR Code Donasi" class="w-28 h-28 bg-white p-1 mb-2">
             <p class="text-xs text-slate-500 tracking-widest font-bold">QRIS V-TRACK</p>
           </div>
 
@@ -166,10 +166,11 @@
         <span id="logo-text" class="text-2xl font-bold text-white">V-Track</span>
       </div>
 
-      <div class="hidden md:flex space-x-8 text-blue-100" id="nav-links">
+      <div class="hidden md:flex space-x-8 text-blue-100 items-center" id="nav-links">
         <a href="#dampak" class="hover:text-sky-400 font-medium">Dampak</a>
         <a href="#peta-3t" class="hover:text-sky-400 font-medium">Peta 3T</a>
         <a href="#pendiri" class="hover:text-sky-400 font-medium">Struktur Tim</a>
+        <a href="#transparansi-rab" class="hover:text-sky-400 font-medium">Transparansi RAB</a>
         <a href="#kemitraan" class="hover:text-sky-400 font-medium">Kemitraan</a>
         <a href="#donasi" class="bg-sky-500 text-white px-6 py-2 rounded-full hover:bg-sky-600 transition-all shadow-lg font-bold">Donasi</a>
       </div>
@@ -290,10 +291,10 @@
           <i data-lucide="monitor" class="mr-3 text-sky-500 w-8 h-8"></i> Monitoring & Dampak Lapangan
         </h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 text-center">
-          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">8</p><p class="text-xs font-bold uppercase text-slate-500">Lokasi 3T</p></div>
-          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">1.2k+</p><p class="text-xs font-bold uppercase text-slate-500">Siswa</p></div>
-          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">45+</p><p class="text-xs font-bold uppercase text-slate-500">Volunteer</p></div>
-          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">12</p><p class="text-xs font-bold uppercase text-slate-500">Modul VR</p></div>
+          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">2</p><p class="text-xs font-bold uppercase text-slate-500">Sekolah Rintisan</p></div>
+          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">80+</p><p class="text-xs font-bold uppercase text-slate-500">Siswa Terjangkau</p></div>
+          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">15+</p><p class="text-xs font-bold uppercase text-slate-500">Relawan Aktif</p></div>
+          <div class="bg-blue-50 p-6 rounded-2xl"><p class="text-3xl font-bold text-blue-600">3</p><p class="text-xs font-bold uppercase text-slate-500">Unit VR Awal</p></div>
         </div>
       </div>
 
@@ -305,16 +306,32 @@
           </h3>
           <div class="grid grid-cols-2 gap-4">
             <div class="col-span-2 relative h-64 rounded-3xl overflow-hidden shadow-xl group">
-              <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="">
+              <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Siswa Belajar VR">
               <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                <p class="text-white font-medium text-sm">Semangat belajar siswa di Sumba Tengah menggunakan modul VR Astronomi.</p>
+                <p class="text-white font-medium text-sm">Semangat belajar siswa di Sumba Timur menggunakan modul VR Astronomi interaktif.</p>
               </div>
             </div>
-            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=400" class="rounded-2xl h-40 w-full object-cover shadow-md" alt="">
-            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=400" class="rounded-2xl h-40 w-full object-cover shadow-md" alt="[Image of children in a classroom]">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=400" class="rounded-2xl h-40 w-full object-cover shadow-md" alt="Relawan Mengajar">
+            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=400" class="rounded-2xl h-40 w-full object-cover shadow-md" alt="Pendidikan Pelosok">
           </div>
         </div>
 
+        <!-- Video Simulasi -->
+        <div>
+          <h3 class="text-2xl font-bold text-blue-900 mb-8 flex items-center">
+            <i data-lucide="film" class="mr-3 text-red-500"></i> Video Simulasi VR
+          </h3>
+          <div class="relative aspect-video bg-black rounded-3xl overflow-hidden shadow-2xl group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=800" class="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-all" alt="Simulasi Tata Surya VR">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
+              <div class="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mb-4 shadow-2xl group-hover:scale-110 transition-all">
+                <i data-lucide="play" class="fill-white ml-1 w-10 h-10"></i>
+              </div>
+              <h4 class="font-bold text-xl">Menjelajahi Tata Surya</h4>
+              <p class="text-blue-200">Simulasi apa yang siswa lihat melalui headset VR</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -328,7 +345,7 @@
         <p class="text-slate-500 max-w-2xl mx-auto">Data siswa terhubung langsung dengan spreadsheet monitoring realtime.</p>
       </div>
 
-      <!-- Statistik -->
+      <!-- Statistik Spreadsheet -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-200 text-center">
           <p class="text-xs uppercase font-bold text-slate-500">Total Siswa</p>
@@ -350,11 +367,11 @@
 
       <!-- Tombol Spreadsheet -->
       <div class="flex justify-center mb-8">
-  <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTi46FfOUK3Xfamx79ZqppmqTdfZu0yKJvqReFq75mRsjJqixSu7Ysx5krR9rYiIjPDXVkaL-JxGM1/pubhtml"
-     target="_blank"
-     class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-2xl shadow-lg transition-all hover:-translate-y-1">
-    Buka Dashboard Monitoring
-  </a>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRTi46FfOUK3Xfamx79ZqppmqTdfZu0yKJvqReFq75mRsjJqixSu7Ysx5krR9rYiIjPDXVkaL-JxGM1/pubhtml"
+           target="_blank"
+           class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-2xl shadow-lg transition-all hover:-translate-y-1">
+          Buka Dashboard Monitoring
+        </a>
       </div>
 
       <!-- Table -->
@@ -383,30 +400,6 @@
     </div>
   </section>
 
-  <!-- Video Simulasi -->
-  <section class="py-24 bg-white">
-    <div class="container mx-auto px-4 md:px-8">
-      <div class="grid lg:grid-cols-2 gap-16">
-        <div>
-        <div>
-          <h3 class="text-2xl font-bold text-blue-900 mb-8 flex items-center">
-            <i data-lucide="film" class="mr-3 text-red-500"></i> Video Simulasi VR
-          </h3>
-          <div class="relative aspect-video bg-black rounded-3xl overflow-hidden shadow-2xl group cursor-pointer">
-            <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=800" class="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-all" alt="">
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
-              <div class="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mb-4 shadow-2xl group-hover:scale-110 transition-all">
-                <i data-lucide="play" class="fill-white ml-1 w-10 h-10"></i>
-              </div>
-              <h4 class="font-bold text-xl">Menjelajahi Tata Surya</h4>
-              <p class="text-blue-200">Simulasi apa yang siswa lihat melalui headset VR</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Struktur Organisasi -->
   <section class="py-24 bg-slate-50" id="pendiri">
     <div class="container mx-auto px-4 md:px-8">
@@ -419,6 +412,7 @@
       <div class="max-w-7xl mx-auto overflow-x-auto pb-8">
         <div class="min-w-[1100px] flex flex-col items-center">
 
+          <!-- CEO Founders Group -->
           <div class="mb-4">
             <div class="bg-blue-900 text-white p-8 rounded-[2rem] shadow-2xl border-t-4 border-sky-400 text-center w-full mx-auto relative">
               <h3 class="text-sm uppercase tracking-[0.3em] font-bold text-sky-400 mb-6 italic">CEO Founders</h3>
@@ -427,35 +421,35 @@
                 <div class="founder-container bg-white/10 py-4 px-2 rounded-2xl border border-white/5 backdrop-blur-sm flex flex-col items-center">
                   <img src="https://raw.githubusercontent.com/ibnihilma-nie/Vtrack-web/9c7f25855049adf4db721c9c53995c4689236c66/Hilma.jpg"
                        onerror="this.onerror=null;this.src='https://placehold.co/72x72/0e7490/ffffff?text=H'"
-                       class="founder-img" alt="">
+                       class="founder-img" alt="Hilma">
                   <p class="text-lg font-bold tracking-tight mt-1">Hilma</p>
                 </div>
 
                 <div class="founder-container bg-white/10 py-4 px-2 rounded-2xl border border-white/5 backdrop-blur-sm flex flex-col items-center">
                   <img src="https://raw.githubusercontent.com/ibnihilma-nie/Vtrack-web/9c7f25855049adf4db721c9c53995c4689236c66/Ghaitsa.jpeg"
                        onerror="this.onerror=null;this.src='https://placehold.co/72x72/0e7490/ffffff?text=G'"
-                       class="founder-img" alt="">
+                       class="founder-img" alt="Ghaitsa">
                   <p class="text-lg font-bold tracking-tight mt-1">Ghaitsa</p>
                 </div>
 
                 <div class="founder-container bg-white/10 py-4 px-2 rounded-2xl border border-white/5 backdrop-blur-sm flex flex-col items-center">
                   <img src="https://raw.githubusercontent.com/ibnihilma-nie/Vtrack-web/9c7f25855049adf4db721c9c53995c4689236c66/Nadhira.jpeg"
                        onerror="this.onerror=null;this.src='https://placehold.co/72x72/0e7490/ffffff?text=N'"
-                       class="founder-img" alt="">
+                       class="founder-img" alt="Nadhira">
                   <p class="text-lg font-bold tracking-tight mt-1">Nadhira</p>
                 </div>
 
                 <div class="founder-container bg-white/10 py-4 px-2 rounded-2xl border border-white/5 backdrop-blur-sm flex flex-col items-center">
                   <img src="https://raw.githubusercontent.com/ibnihilma-nie/Vtrack-web/9c7f25855049adf4db721c9c53995c4689236c66/Khaira.png"
                        onerror="this.onerror=null;this.src='https://placehold.co/72x72/0e7490/ffffff?text=K'"
-                       class="founder-img" alt="">
+                       class="founder-img" alt="Khaira">
                   <p class="text-lg font-bold tracking-tight mt-1">Khaira</p>
                 </div>
 
                 <div class="founder-container bg-white/10 py-4 px-2 rounded-2xl border border-white/5 backdrop-blur-sm flex flex-col items-center">
                   <img src="https://raw.githubusercontent.com/ibnihilma-nie/Vtrack-web/9c7f25855049adf4db721c9c53995c4689236c66/Oliv.jpeg"
                        onerror="this.onerror=null;this.src='https://placehold.co/72x72/0e7490/ffffff?text=O'"
-                       class="founder-img" alt="">
+                       class="founder-img" alt="Oliv">
                   <p class="text-lg font-bold tracking-tight mt-1">Oliv</p>
                 </div>
               </div>
@@ -465,6 +459,7 @@
           <div class="line-v"></div>
           <div class="w-[95%] line-h"></div>
 
+          <!-- Divisi Staff -->
           <div class="grid grid-cols-5 gap-4 w-full mt-0">
             <div class="flex flex-col items-center">
               <div class="line-v"></div>
@@ -541,9 +536,10 @@
   <section class="py-20 bg-slate-900 text-white overflow-hidden relative" id="peta-3t">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-4 italic">Peta Sebaran Wilayah 3T</h2>
-      <p class="text-slate-400 mb-12 max-w-xl mx-auto">Titik-titik fokus implementasi teknologi VR untuk literasi digital nasional.</p>
+      <p class="text-slate-400 mb-12 max-w-xl mx-auto">Titik-titik fokus rintisan dan target implementasi teknologi VR untuk literasi digital nasional.</p>
 
       <div class="relative w-full aspect-[16/8] bg-slate-800 rounded-3xl border border-slate-700 p-8 shadow-2xl overflow-hidden" id="map-container">
+        <!-- SVG Landmass Outline Minimalis -->
         <svg viewBox="0 0 800 300" class="w-full h-full text-slate-700 fill-current opacity-40">
           <path d="M50 150 L100 130 Q120 100 150 120 L200 110 L250 140 Q230 180 180 180 L120 170 Z" />
           <path d="M300 150 L350 130 L400 140 L450 150 L420 170 Z" />
@@ -552,33 +548,253 @@
           <path d="M280 200 L320 220 L350 210 Q330 190 280 200 Z" />
         </svg>
 
-        <div class="map-dot absolute group" style="left: 10%; top: 50%;">
+        <!-- Titik Nias Barat -->
+        <div class="map-dot absolute group" style="left: 12%; top: 45%;">
           <span class="absolute -inset-2 rounded-full bg-sky-500/30 animate-ping"></span>
           <span class="relative block w-3 h-3 bg-sky-500 rounded-full border-2 border-slate-900 cursor-pointer"></span>
-          <div class="tooltip absolute bottom-6 left-1/2 -translate-x-1/2 w-40 bg-white text-slate-800 p-2 rounded-lg shadow-xl opacity-0 translate-y-2 transition-all pointer-events-none z-20 text-xs">
-            <p class="font-bold text-blue-900">Nias Selatan</p>
-            <p>Target: 2 SD Pesisir</p>
+          <div class="tooltip absolute bottom-6 left-1/2 -translate-x-1/2 w-44 bg-white text-slate-800 p-2 rounded-lg shadow-xl opacity-0 translate-y-2 transition-all pointer-events-none z-20 text-xs">
+            <p class="font-bold text-blue-900">Kepulauan Nias Barat</p>
+            <p class="text-slate-500">Status: Uji Coba Alat</p>
+            <p class="font-semibold text-sky-600 mt-1">Siswa Terjangkau: 35</p>
           </div>
         </div>
 
-        <div class="map-dot absolute group" style="left: 45%; top: 70%;">
-          <span class="absolute -inset-2 rounded-full bg-sky-500/30 animate-ping"></span>
-          <span class="relative block w-3 h-3 bg-sky-500 rounded-full border-2 border-slate-900 cursor-pointer"></span>
-          <div class="tooltip absolute bottom-6 left-1/2 -translate-x-1/2 w-40 bg-white text-slate-800 p-2 rounded-lg shadow-xl opacity-0 translate-y-2 transition-all pointer-events-none z-20 text-xs">
-            <p class="font-bold text-blue-900">Sumba Tengah</p>
-            <p>Daerah Pionir Utama</p>
+        <!-- Titik Sumba Timur -->
+        <div class="map-dot absolute group" style="left: 48%; top: 72%;">
+          <span class="absolute -inset-2 rounded-full bg-green-500/30 animate-ping"></span>
+          <span class="relative block w-3 h-3 bg-green-500 rounded-full border-2 border-slate-900 cursor-pointer"></span>
+          <div class="tooltip absolute bottom-6 left-1/2 -translate-x-1/2 w-44 bg-white text-slate-800 p-2 rounded-lg shadow-xl opacity-0 translate-y-2 transition-all pointer-events-none z-20 text-xs">
+            <p class="font-bold text-blue-900">Kanatang, Sumba Timur</p>
+            <p class="text-green-600 font-semibold">Status: Aktif</p>
+            <p class="font-semibold text-sky-600 mt-1">Siswa Terjangkau: 45</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="map-dot absolute group" style="left: 75%; top: 60%;">
-          <span class="absolute -inset-2 rounded-full bg-sky-500/30 animate-ping"></span>
-          <span class="relative block w-3 h-3 bg-sky-500 rounded-full border-2 border-slate-900 cursor-pointer"></span>
-          <div class="tooltip absolute bottom-6 left-1/2 -translate-x-1/2 w-40 bg-white text-slate-800 p-2 rounded-lg shadow-xl opacity-0 translate-y-2 transition-all pointer-events-none z-20 text-xs">
-            <p class="font-bold text-blue-900">Supiori, Papua</p>
-            <p>Target: 1 SMA Vokasi</p>
+  <!-- Transparansi RAB Komunitas -->
+  <section class="py-24 bg-gradient-to-br from-slate-50 to-blue-50" id="transparansi-rab">
+    <div class="container mx-auto px-4 md:px-8">
+      <div class="text-center mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-semibold mb-4">
+          <i data-lucide="shield-check" class="w-4 h-4"></i> Akuntabilitas Komunitas
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4 flex items-center justify-center">
+          <i data-lucide="file-text" class="mr-3 text-blue-600 w-8 h-8"></i> Transparansi RAB Komunitas
+        </h2>
+        <p class="text-slate-600 max-w-2xl mx-auto mb-2">Komitmen kami terhadap akuntabilitas finansial dan penggunaan dana donatur yang efisien demi misi pemerataan literasi digital.</p>
+        <p class="text-sm text-slate-500 italic">Data diperbarui: Mei 2026 | Periode: Rintisan Awal Komunitas</p>
+      </div>
+
+      <!-- Tiga Card Utama Finansial -->
+      <div class="grid lg:grid-cols-3 gap-6 mb-12">
+        <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-100">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-lg font-bold text-slate-700">Dana Terkumpul</h3>
+            <div class="bg-green-100 p-3 rounded-lg"><i data-lucide="trending-up" class="text-green-600 w-5 h-5"></i></div>
           </div>
+          <p class="text-3xl font-bold text-green-600 mb-2">Rp 20.000.000</p>
+          <p class="text-xs text-slate-500">Donasi publik, iuran anggota, dan sponsor lokal</p>
         </div>
 
+        <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-100">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-lg font-bold text-slate-700">Dana Alokasi Program</h3>
+            <div class="bg-blue-100 p-3 rounded-lg"><i data-lucide="check-circle" class="text-blue-600 w-5 h-5"></i></div>
+          </div>
+          <p class="text-3xl font-bold text-blue-600 mb-2">Rp 15.000.000</p>
+          <p class="text-xs text-slate-500">75% digunakan untuk pengadaan & operasional</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-100">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-lg font-bold text-slate-700">Kas Cadangan Komunitas</h3>
+            <div class="bg-amber-100 p-3 rounded-lg"><i data-lucide="wallet" class="text-amber-600 w-5 h-5"></i></div>
+          </div>
+          <p class="text-3xl font-bold text-amber-600 mb-2">Rp 5.000.000</p>
+          <p class="text-xs text-slate-500">25% disimpan untuk pemeliharaan alat & darurat</p>
+        </div>
+      </div>
+
+      <!-- Detail Breakdown Penggunaan Dana -->
+      <div class="bg-white rounded-3xl p-6 md:p-8 shadow-lg border border-slate-100 mb-8">
+        <h3 class="text-xl md:text-2xl font-bold text-slate-800 mb-8">Rincian Penggunaan Anggaran</h3>
+        
+        <div class="space-y-6">
+          <!-- Modem Satelit (Major Cost for 3T) -->
+          <div class="border-l-4 border-blue-500 pl-4 md:pl-6 py-2">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-2 gap-1">
+              <div>
+                <h4 class="font-bold text-slate-800 flex items-center">
+                  <i data-lucide="wifi" class="mr-2 text-blue-500 w-5 h-5"></i> Modem Satelit & Akses Internet 3T
+                </h4>
+                <p class="text-sm text-slate-500 mt-0.5">Pembelian 1 unit modem satelit portabel dan paket kuota internet khusus wilayah blankspot</p>
+              </div>
+              <div class="md:text-right">
+                <p class="text-lg font-bold text-blue-600">Rp 7.500.000</p>
+                <p class="text-xs text-slate-500">50.0% dari dana terpakai</p>
+              </div>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2">
+              <div class="bg-blue-500 h-2 rounded-full" style="width: 50%"></div>
+            </div>
+          </div>
+
+          <!-- Pojok Belajar Digital -->
+          <div class="border-l-4 border-indigo-500 pl-4 md:pl-6 py-2">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-2 gap-1">
+              <div>
+                <h4 class="font-bold text-slate-800 flex items-center">
+                  <i data-lucide="layout" class="mr-2 text-indigo-500 w-5 h-5"></i> Fasilitasi Pojok Belajar Digital
+                </h4>
+                <p class="text-sm text-slate-500 mt-0.5">Pengadaan meja belajar lipat, stopkontak, media poster edukatif, dan alas karpet belajar</p>
+              </div>
+              <div class="md:text-right">
+                <p class="text-lg font-bold text-indigo-600">Rp 3.600.000</p>
+                <p class="text-xs text-slate-500">24.0% dari dana terpakai</p>
+              </div>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2">
+              <div class="bg-indigo-500 h-2 rounded-full" style="width: 24%"></div>
+            </div>
+          </div>
+
+          <!-- Biaya Operasional & Sosialisasi -->
+          <div class="border-l-4 border-emerald-500 pl-4 md:pl-6 py-2">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-2 gap-1">
+              <div>
+                <h4 class="font-bold text-slate-800 flex items-center">
+                  <i data-lucide="navigation" class="mr-2 text-emerald-500 w-5 h-5"></i> Biaya Operasional & Sosialisasi Lapangan
+                </h4>
+                <p class="text-sm text-slate-500 mt-0.5">Biaya transport relawan mengajar ke lokasi 3T, konsumsi kegiatan, dan materi cetak pelatihan</p>
+              </div>
+              <div class="md:text-right">
+                <p class="text-lg font-bold text-emerald-600">Rp 3.000.000</p>
+                <p class="text-xs text-slate-500">20.0% dari dana terpakai</p>
+              </div>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2">
+              <div class="bg-emerald-500 h-2 rounded-full" style="width: 20%"></div>
+            </div>
+          </div>
+
+          <!-- Perangkat VR (3 unit @ 300rb) -->
+          <div class="border-l-4 border-sky-500 pl-4 md:pl-6 py-2">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-2 gap-1">
+              <div>
+                <h4 class="font-bold text-slate-800 flex items-center">
+                  <i data-lucide="smartphone" class="mr-2 text-sky-500 w-5 h-5"></i> Perangkat VR Cardboard/Viewer
+                </h4>
+                <p class="text-sm text-slate-500 mt-0.5">Pengadaan tahap awal: 3 unit headset VR seluler (@ Rp 300.000) untuk media ajar visual interaktif</p>
+              </div>
+              <div class="md:text-right">
+                <p class="text-lg font-bold text-sky-600">Rp 900.000</p>
+                <p class="text-xs text-slate-500">6.0% dari dana terpakai</p>
+              </div>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2">
+              <div class="bg-sky-500 h-2 rounded-full" style="width: 6%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabel Lokasi Program Terlayani -->
+      <div class="bg-white rounded-3xl p-6 md:p-8 shadow-lg border border-slate-100 overflow-hidden">
+        <h3 class="text-xl md:text-2xl font-bold text-slate-800 mb-6">Distribusi Wilayah Aksi Komunitas</h3>
+        
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-left">
+            <thead>
+              <tr class="border-b border-slate-200 bg-slate-50 text-slate-700 font-bold">
+                <th class="py-4 px-4">Provinsi</th>
+                <th class="py-4 px-4">Wilayah / Desa 3T</th>
+                <th class="py-4 px-4 text-center">Titik Pojok Belajar</th>
+                <th class="py-4 px-4 text-center">Target Siswa</th>
+                <th class="py-4 px-4 text-right">Alokasi Anggaran</th>
+                <th class="py-4 px-4 text-center">Status Operasional</th>
+              </tr>
+            </thead>
+            <tbody class="text-slate-600">
+              <tr class="border-b border-slate-100 hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 px-4 font-semibold text-slate-800">Nusa Tenggara Timur</td>
+                <td class="py-4 px-4">Desa Kanatang, Sumba Timur</td>
+                <td class="py-4 px-4 text-center">1 Sekolah Dasar</td>
+                <td class="py-4 px-4 text-center">45 Siswa</td>
+                <td class="py-4 px-4 text-right font-semibold text-blue-600">Rp 8.400.000</td>
+                <td class="py-4 px-4 text-center">
+                  <span class="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold">Aktif</span>
+                </td>
+              </tr>
+              <tr class="border-b border-slate-100 hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 px-4 font-semibold text-slate-800">Sumatera Utara</td>
+                <td class="py-4 px-4">Kepulauan Nias Barat</td>
+                <td class="py-4 px-4 text-center">1 Pusat Belajar Desa</td>
+                <td class="py-4 px-4 text-center">35 Siswa</td>
+                <td class="py-4 px-4 text-right font-semibold text-blue-600">Rp 3.600.000</td>
+                <td class="py-4 px-4 text-center">
+                  <span class="inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs font-semibold">Uji Coba Alat</span>
+                </td>
+              </tr>
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 px-4 font-semibold text-slate-800">Pengadaan Umum</td>
+                <td class="py-4 px-4">Peralatan Cadangan & Admin</td>
+                <td class="py-4 px-4 text-center">-</td>
+                <td class="py-4 px-4 text-center">-</td>
+                <td class="py-4 px-4 text-right font-semibold text-blue-600">Rp 3.000.000</td>
+                <td class="py-4 px-4 text-center">
+                  <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">Siap Digunakan</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <p class="text-sm text-slate-700">
+            <span class="font-bold text-blue-900">Total Impak Awal:</span> 80+ Siswa terjangkau dengan teknologi VR di 2 sekolah rintisan.
+          </p>
+          <span class="text-xs text-slate-500 flex items-center gap-1">
+            <i data-lucide="info" class="w-4 h-4 text-blue-500"></i> Data diverifikasi oleh tim internal relawan
+          </span>
+        </div>
+      </div>
+
+      <!-- Audit & Verifikasi -->
+      <div class="mt-12 grid md:grid-cols-2 gap-8">
+        <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 md:p-8 text-white">
+          <h4 class="text-lg font-bold mb-3 flex items-center">
+            <i data-lucide="users-2" class="mr-2 text-blue-400 w-5 h-5"></i> Audit Komunitas Mandiri
+          </h4>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            Laporan pemasukan dan pengeluaran fisik divalidasi langsung secara berkala oleh dewan perwakilan donatur dan seluruh anggota inti relawan pengajar demi menjaga amanah donasi.
+          </p>
+          <p class="text-xs text-blue-300 font-semibold">Verifikasi internal: Periode Mei 2026</p>
+        </div>
+
+        <div class="bg-gradient-to-br from-blue-900 to-blue-950 rounded-2xl p-6 md:p-8 text-white">
+          <h4 class="text-lg font-bold mb-3 flex items-center">
+            <i data-lucide="check-square" class="mr-2 text-emerald-400 w-5 h-5"></i> Publikasi Nota Terbuka
+          </h4>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            Foto fisik nota pembelian modem satelit, aksesoris belajar, serta kuitansi pengadaan VR diunggah secara terbuka pada Google Drive publik komunitas yang dapat diakses oleh siapa saja.
+          </p>
+          <p class="text-xs text-emerald-300 font-semibold">Update Drive: Setiap akhir bulan program berlangsung</p>
+        </div>
+      </div>
+
+      <!-- Tombol CTA -->
+      <div class="mt-12 text-center">
+        <p class="text-slate-600 mb-6">Butuh detail kuitansi atau dokumentasi fisik pembelian?</p>
+        <div class="flex flex-wrap gap-4 justify-center">
+          <a href="#" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl shadow-md transition-all text-sm">
+            <i data-lucide="external-link" class="mr-2 w-4 h-4"></i> Buka Google Drive Nota Fisik
+          </a>
+          <a href="#hubungi-kami" class="inline-flex items-center bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 font-bold py-3 px-6 rounded-xl shadow-sm transition-all text-sm">
+            <i data-lucide="mail" class="mr-2 w-4 h-4"></i> Hubungi Pengurus Komunitas
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -611,7 +827,7 @@
             </div>
           </div>
 
-          <div class="p-6 bg-white/10 rounded-2xl border border-white/20 backdrop-blur-md">
+          <div class="p-6 bg-white/10 rounded-2xl border border-white/20 backdrop-blur-md" id="hubungi-kami">
             <p class="text-sm font-semibold mb-2 flex items-center text-sky-300">
               <i data-lucide="download" class="mr-2 w-4 h-4"></i> Unduh Proposal Kami
             </p>
@@ -654,236 +870,6 @@
     </div>
   </section>
 
-  <!-- Transparansi RAB -->
-  <section class="py-24 bg-gradient-to-br from-slate-50 to-blue-50" id="transparansi-rab">
-    <div class="container mx-auto px-4 md:px-8">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4 flex items-center justify-center italic">
-          <i data-lucide="file-text" class="mr-3 text-blue-600 w-8 h-8"></i> Transparansi RAB (Rancangan Anggaran Biaya)
-        </h2>
-        <p class="text-slate-600 max-w-2xl mx-auto mb-2">Komitmen kami terhadap akuntabilitas finansial dan penggunaan dana yang transparan untuk misi literasi digital.</p>
-        <p class="text-sm text-slate-500 italic">Data diperbarui: Mei 2026 | Periode: Tahun Anggaran 2026</p>
-      </div>
-
-      <div class="grid lg:grid-cols-3 gap-6 mb-12">
-        <div class="bg-white rounded-2xl p-6 shadow-lg border border-slate-200">
-          <div class="flex items-center justify-between mb-4">
-            <h3 class="text-lg font-bold text-blue-900">Total Dana Terkumpul</h3>
-            <div class="bg-green-100 p-3 rounded-lg"><i data-lucide="trending-up" class="text-green-600 w-5 h-5"></i></div>
-          </div>
-          <p class="text-3xl font-bold text-green-600 mb-2">Rp 20.000.000,00</p>
-          <p class="text-xs text-slate-500">Dari donasi personal, CSR, dan grant</p>
-        </div>
-
-        <div class="bg-white rounded-2xl p-6 shadow-lg border border-slate-200">
-          <div class="flex items-center justify-between mb-4">
-            <h3 class="text-lg font-bold text-blue-900">Dana Terpakai</h3>
-            <div class="bg-blue-100 p-3 rounded-lg"><i data-lucide="check-circle" class="text-blue-600 w-5 h-5"></i></div>
-          </div>
-          <p class="text-3xl font-bold text-blue-600 mb-2">Rp 15.500.000,00</p>
-          <p class="text-xs text-slate-500">75% digunakan untuk pengadaan & operasional</p>
-        </div>
-
-        <div class="bg-white rounded-2xl p-6 shadow-lg border border-slate-200">
-          <div class="flex items-center justify-between mb-4">
-            <h3 class="text-lg font-bold text-blue-900">Sisa Dana Operasional</h3>
-            <div class="bg-amber-100 p-3 rounded-lg"><i data-lucide="wallet" class="text-amber-600 w-5 h-5"></i></div>
-          </div>
-          <p class="text-3xl font-bold text-amber-600 mb-2">Rp 5.000.000</p>
-          <p class="text-xs text-slate-500">25% disimpan untuk pemeliharaan alat & darurat</p>
-        </div>
-      </div>
-
-      <!-- Detail Breakdown -->
-      <div class="bg-white rounded-3xl p-8 shadow-xl border border-slate-200 mb-8">
-        <h3 class="text-2xl font-bold text-blue-900 mb-8 italic">Rincian Penggunaan Dana</h3>
-        
-        <div class="space-y-4">
-          <!-- Perangkat VR -->
-          <div class="border-l-4 border-sky-500 pl-6 py-4">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h4 class="font-bold text-slate-800 flex items-center">
-                  <i data-lucide="headphones" class="mr-2 text-sky-500 w-5 h-5"></i> Perangkat VR Cardboard
-                </h4>
-                <p class="text-sm text-slate-500 mt-1">Pengadaan tahap awal: 3 unit headset VR seluler</p>
-              </div>
-              <div class="text-right">
-                <p class="text-xl font-bold text-sky-600">Rp 900.000</p>
-                <p class="text-xs text-slate-500 mt-1">6.0% dari dana terpakai</p>
-              </div>
-            </div>
-            <div class="w-full bg-slate-200 rounded-full h-2">
-              <div class="bg-sky-500 h-2 rounded-full" style="width: 59.1%"></div>
-            </div>
-          </div>
-
-          <!-- Infrastruktur Lab -->
-          <div class="border-l-4 border-blue-500 pl-6 py-4">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h4 class="font-bold text-slate-800 flex items-center">
-                  <i data-lucide="building" class="mr-2 text-blue-500 w-5 h-5"></i> Pembangunan Lab Digital
-                </h4>
-                <p class="text-sm text-slate-500 mt-1">Konstruksi, renovasi, dan instalasi infrastruktur di 8 lokasi 3T</p>
-              </div>
-              <div class="text-right">
-                <p class="text-xl font-bold text-blue-600">Rp 487.500.000</p>
-                <p class="text-xs text-slate-500 mt-1">22.6% dari dana terpakai</p>
-              </div>
-            </div>
-            <div class="w-full bg-slate-200 rounded-full h-2">
-              <div class="bg-blue-500 h-2 rounded-full" style="width: 22.6%"></div>
-            </div>
-          </div>
-
-          <!-- Program Beasiswa -->
-          <div class="border-l-4 border-emerald-500 pl-6 py-4">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h4 class="font-bold text-slate-800 flex items-center">
-                  <i data-lucide="book" class="mr-2 text-emerald-500 w-5 h-5"></i> Program Beasiswa & Pelatihan
-                </h4>
-                <p class="text-sm text-slate-500 mt-1">Beasiswa untuk 120 siswa berprestasi dan pelatihan volunteer</p>
-              </div>
-              <div class="text-right">
-                <p class="text-xl font-bold text-emerald-600">Rp 243.750.000</p>
-                <p class="text-xs text-slate-500 mt-1">11.3% dari dana terpakai</p>
-              </div>
-            </div>
-            <div class="w-full bg-slate-200 rounded-full h-2">
-              <div class="bg-emerald-500 h-2 rounded-full" style="width: 11.3%"></div>
-            </div>
-          </div>
-
-          <!-- Operasional & SDM -->
-          <div class="border-l-4 border-purple-500 pl-6 py-4">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h4 class="font-bold text-slate-800 flex items-center">
-                  <i data-lucide="users" class="mr-2 text-purple-500 w-5 h-5"></i> Operasional & Gaji SDM
-                </h4>
-                <p class="text-sm text-slate-500 mt-1">Gaji tim inti (5 CEO + 12 staff), transportasi, dan operasional kantor</p>
-              </div>
-              <div class="text-right">
-                <p class="text-xl font-bold text-purple-600">Rp 150.000.000</p>
-                <p class="text-xs text-slate-500 mt-1">7.0% dari dana terpakai</p>
-              </div>
-            </div>
-            <div class="w-full bg-slate-200 rounded-full h-2">
-              <div class="bg-purple-500 h-2 rounded-full" style="width: 7.0%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tabel Detail Lokasi -->
-      <div class="bg-white rounded-3xl p-8 shadow-xl border border-slate-200 overflow-x-auto">
-        <h3 class="text-2xl font-bold text-blue-900 mb-6 italic">Distribusi Dana per Wilayah 3T</h3>
-        
-        <table class="w-full text-sm">
-          <thead>
-            <tr class="border-b-2 border-slate-300 bg-slate-50">
-              <th class="text-left py-4 px-4 font-bold text-slate-700">Wilayah</th>
-              <th class="text-left py-4 px-4 font-bold text-slate-700">Lokasi</th>
-              <th class="text-center py-4 px-4 font-bold text-slate-700">Jumlah Sekolah</th>
-              <th class="text-center py-4 px-4 font-bold text-slate-700">Siswa Terlayani</th>
-              <th class="text-right py-4 px-4 font-bold text-slate-700">Alokasi Dana</th>
-              <th class="text-center py-4 px-4 font-bold text-slate-700">Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="border-b border-slate-200 hover:bg-slate-50 transition-all">
-              <td class="py-4 px-4 font-semibold text-slate-800">Nusa Tenggara Timur</td>
-              <td class="py-4 px-4 text-slate-600">Sumba Tengah</td>
-              <td class="text-center py-4 px-4 text-slate-600">3 (1 SD, 1 SMP, 1 SMA)</td>
-              <td class="text-center py-4 px-4 text-slate-600">285 siswa</td>
-              <td class="text-right py-4 px-4 font-bold text-blue-600">Rp 487.500.000</td>
-              <td class="text-center py-4 px-4">
-                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-bold">Aktif</span>
-              </td>
-            </tr>
-            <tr class="border-b border-slate-200 hover:bg-slate-50 transition-all">
-              <td class="py-4 px-4 font-semibold text-slate-800">Sumatera Utara</td>
-              <td class="py-4 px-4 text-slate-600">Nias Selatan</td>
-              <td class="text-center py-4 px-4 text-slate-600">2 (2 SD Pesisir)</td>
-              <td class="text-center py-4 px-4 text-slate-600">156 siswa</td>
-              <td class="text-right py-4 px-4 font-bold text-blue-600">Rp 325.000.000</td>
-              <td class="text-center py-4 px-4">
-                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-bold">Aktif</span>
-              </td>
-            </tr>
-            <tr class="border-b border-slate-200 hover:bg-slate-50 transition-all">
-              <td class="py-4 px-4 font-semibold text-slate-800">Papua</td>
-              <td class="py-4 px-4 text-slate-600">Supiori</td>
-              <td class="text-center py-4 px-4 text-slate-600">2 (1 SMA Vokasi, 1 SMP)</td>
-              <td class="text-center py-4 px-4 text-slate-600">198 siswa</td>
-              <td class="text-right py-4 px-4 font-bold text-blue-600">Rp 325.000.000</td>
-              <td class="text-center py-4 px-4">
-                <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs font-bold">Tahap Persiapan</span>
-              </td>
-            </tr>
-            <tr class="border-b border-slate-200 hover:bg-slate-50 transition-all">
-              <td class="py-4 px-4 font-semibold text-slate-800">Jawa Timur</td>
-              <td class="py-4 px-4 text-slate-600">Malang (Pilot Program)</td>
-              <td class="text-center py-4 px-4 text-slate-600">1 (1 SMP Terpencil)</td>
-              <td class="text-center py-4 px-4 text-slate-600">92 siswa</td>
-              <td class="text-right py-4 px-4 font-bold text-blue-600">Rp 243.750.000</td>
-              <td class="text-center py-4 px-4">
-                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-bold">Aktif</span>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <div class="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-200">
-          <p class="text-sm text-slate-700">
-            <span class="font-bold text-blue-900">Total Siswa Terlayani:</span> 731 siswa dari 8 sekolah di 4 provinsi
-          </p>
-          <p class="text-sm text-slate-600 mt-2">
-            <i data-lucide="info" class="inline w-4 h-4 mr-1"></i> Rincian lengkap tersedia di dashboard monitoring realtime.
-          </p>
-        </div>
-      </div>
-
-      <!-- Audit & Verifikasi -->
-      <div class="mt-12 grid md:grid-cols-2 gap-8">
-        <div class="bg-gradient-to-br from-blue-900 to-blue-950 rounded-2xl p-8 text-white">
-          <h4 class="text-xl font-bold mb-4 flex items-center">
-            <i data-lucide="shield-check" class="mr-2 text-sky-400 w-6 h-6"></i> Audit Independen
-          </h4>
-          <p class="text-blue-100 text-sm leading-relaxed mb-4">
-            Semua laporan keuangan V-Track telah diaudit oleh firma audit independen terdaftar di OJK. Laporan audit lengkap tersedia untuk mitra dan donor yang meminta.
-          </p>
-          <p class="text-xs text-sky-300 font-semibold">Audit terakhir: Desember 2023 | Lembaga: PT. Auditor Mitra Indonesia</p>
-        </div>
-
-        <div class="bg-gradient-to-br from-emerald-900 to-emerald-950 rounded-2xl p-8 text-white">
-          <h4 class="text-xl font-bold mb-4 flex items-center">
-            <i data-lucide="file-check" class="mr-2 text-emerald-400 w-6 h-6"></i> Laporan Berkala
-          </h4>
-          <p class="text-emerald-100 text-sm leading-relaxed mb-4">
-            Laporan transparansi finansial dipublikasikan setiap kuartal. Dokumentasi lapangan, foto kegiatan, dan testimoni siswa tersedia di portal transparansi kami.
-          </p>
-          <p class="text-xs text-emerald-300 font-semibold">Laporan Q1 2024 tersedia | Update berikutnya: Juni 2024</p>
-        </div>
-      </div>
-
-      <!-- Call to Action -->
-      <div class="mt-12 text-center">
-        <p class="text-slate-600 mb-6">Ingin melihat laporan lengkap atau memverifikasi data transparansi kami?</p>
-        <div class="flex flex-wrap gap-4 justify-center">
-          <a href="#" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition-all">
-            <i data-lucide="download" class="mr-2 w-5 h-5"></i> Download Laporan RAB Lengkap
-          </a>
-          <a href="#kemitraan" class="inline-flex items-center bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-8 rounded-xl shadow-lg transition-all">
-            <i data-lucide="mail" class="mr-2 w-5 h-5"></i> Hubungi untuk Verifikasi
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Donasi -->
   <section class="py-24 bg-white" id="donasi">
     <div class="container mx-auto px-4 text-center">
@@ -904,6 +890,7 @@
     </div>
   </section>
 
+  <!-- Kaki Halaman (Footer) -->
   <footer class="bg-slate-950 text-slate-500 py-12 text-center border-t border-slate-800">
     <div class="flex items-center justify-center space-x-2 mb-4">
       <div class="bg-blue-600 text-white p-1 rounded"><span class="font-bold text-xs tracking-tighter">VT</span></div>
@@ -915,11 +902,11 @@
       <a href="#" class="hover:text-sky-400"><i data-lucide="youtube" class="w-5 h-5"></i></a>
       <a href="#" class="hover:text-sky-400"><i data-lucide="mail" class="w-5 h-5"></i></a>
     </div>
-    <p class="text-[10px]">&copy; 2024 V-Track Indonesia. Membawa Literasi Digital ke Pelosok Negeri.</p>
+    <p class="text-[10px]">&copy; 2026 V-Track Indonesia. Membawa Literasi Digital ke Pelosok Negeri.</p>
   </footer>
 
   <script>
-    // Initialize Icons (safe to call more than once)
+    // Inisialisasi ikon Lucide
     lucide.createIcons();
 
     let currentAmount = 100000;
@@ -946,7 +933,7 @@
       }
     });
 
-    // Donasi Logic
+    // Logika Donasi
     function updateAmt(val) {
       currentAmount = val;
       const el = document.getElementById('display-amount');
@@ -963,9 +950,9 @@
       document.getElementById('donation-modal')?.classList.add('hidden');
     }
 
-    // =========================
+    // =====================================
     // VR EXPERIENCE (Three.js)
-    // =========================
+    // =====================================
     let vrScene, vrCamera, vrRenderer, vrParticles, vrCurrentObject;
     const vrContainer = document.getElementById('vr-canvas-container');
 
@@ -1005,7 +992,7 @@
       vrRenderer.setSize(w, h);
       vrContainer.appendChild(vrRenderer.domElement);
 
-      // Particles (space dust)
+      // Partikel Debu Luar Angkasa
       const geo = new THREE.BufferGeometry();
       const count = 4000;
       const pos = new Float32Array(count * 3);
@@ -1057,7 +1044,7 @@
       }
       if (desc) desc.innerText = data.desc;
 
-      // Update 3D object
+      // Hapus objek sebelumnya
       if (vrCurrentObject) vrScene.remove(vrCurrentObject);
 
       let geometry;
@@ -1076,7 +1063,7 @@
       vrScene.add(vrCurrentObject);
     }
 
-    // Clock
+    // Jam di dalam HUD
     function updateVRClock() {
       const now = new Date();
       const el = document.getElementById("vr-clock");
@@ -1085,7 +1072,7 @@
     setInterval(updateVRClock, 1000);
     updateVRClock();
 
-    // Resize (container-aware)
+    // Penanganan Penyesuaian Ukuran Canvas
     function resizeVR() {
       if (!vrContainer || !vrCamera || !vrRenderer) return;
       const w = vrContainer.clientWidth;
@@ -1096,7 +1083,7 @@
     }
     window.addEventListener("resize", resizeVR);
 
-    // Mouse interactivity (only when cursor inside VR box)
+    // Deteksi Mouse di dalam Area Simulasi
     window.addEventListener("mousemove", (e) => {
       if (!vrContainer || !vrCurrentObject || !vrCamera) return;
       const rect = vrContainer.getBoundingClientRect();
@@ -1117,19 +1104,20 @@
     });
 
     // =====================================
-    // Spreadsheet Monitoring Integration
+    // Logika Pengambilan Data Google Sheet
     // =====================================
     async function loadSpreadsheetData() {
-      const CSV_URL =
-         "https://docs.google.com/spreadsheets/d/e/2PACX-1vRTi46FfOUK3Xfamx79ZqppmqTdfZu0yKJvqReFq75mRsjJqixSu7Ysx5krR9rYiIjPDXVkaL-JxGM1/pub?output=csv";
+      const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRTi46FfOUK3Xfamx79ZqppmqTdfZu0yKJvqReFq75mRsjJqixSu7Ysx5krR9rYiIjPDXVkaL-JxGM1/pub?output=csv";
       try {
         const response = await fetch(CSV_URL);
         const csvText = await response.text();
 
+        // Bagi baris demi baris
         const rows = csvText.trim().split("\n");
 
+        // Filter baris yang kolom pertamanya bernilai angka (ID/No Siswa)
         const dataRows = rows.filter(row => {
-          const firstCol = row.split(",") [0].trim();
+          const firstCol = row.split(",")[0].trim();
           return Number(firstCol) > 0;
         });
         
@@ -1180,23 +1168,24 @@
         document.getElementById("total-sekolah").innerText = sekolahSet.size;
 
       } catch (err) {
-        console.error(err);
+        console.error("Gagal memproses spreadsheet:", err);
         document.getElementById("spreadsheet-body").innerHTML = `
           <tr>
             <td colspan="6" class="text-center py-10 text-red-500">
-              Gagal mengambil data spreadsheet.
+              Gagal mengambil data spreadsheet terbaru secara realtime.
             </td>
           </tr>
         `;
       }
     }
 
-window.addEventListener("load", () => {
-  initVR3D();
-  resizeVR();
-  lucide.createIcons();
-  loadSpreadsheetData();
-});
+    // Eksekusi fungsi inisialisasi pada saat load awal
+    window.onload = function() {
+      initVR3D();
+      resizeVR();
+      lucide.createIcons();
+      loadSpreadsheetData();
+    };
   </script>
 </body>
 </html>
